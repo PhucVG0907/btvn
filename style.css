@@ -1,0 +1,224 @@
+body{
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: #fff;
+    max-width: 2000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+    font-size: 24px;
+    align-items: center;
+    color: rgb(60, 60, 92);
+}
+.search-bar{
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0px 0px 17px 2px rgba(148, 127, 127, 0.8);
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.intro div{
+    background-color: red;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size:24px;
+    color: #bdc978;
+    background: url('./images.jpg') ;
+    background-size: cover;
+    background-position-y: -60px
+}
+.lego {
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+ display: flex;
+ align-items: center;
+}
+.cost{
+    display: flex;
+    justify-content: space-between;
+}
+.doll{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 2%;
+}
+.Model{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 2%;
+}
+.img img{
+    box-shadow: 0px 0px 17px 2px rgba(148, 127, 127, 0.8);
+    margin: 50px 2%;
+    border-radius: 15px;
+    height: 300px;
+    width: 250px ;
+}
+.footer {
+    background-color: rgb(122, 101, 75);
+    background-size: cover;
+    padding: 70px 0;
+    height: 250px;
+}
+
+.container {
+    max-width: 1900px;
+    margin-left: 50px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    
+}
+
+.footer-col ul li a {
+    text-align: left;
+    text-decoration: none;
+    color: rgb(53, 27, 53);
+    font-size: 20px;
+    font-weight: 300;
+    display: block;
+}
+
+.footer-col h4 {
+    font-size: 25px;
+    color: darkblue;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    text-decoration: underline red;
+}
+
+
+
+.social-links a {
+    font-size: 35px;
+    color: deepskyblue;
+}
+
+.social-links img {
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+}
+.name h5{
+    font-size: 18px;
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+  #wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    width: 350px;
+    height: 300px;
+    color: black;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(254, 254, 255, 0.8);
+}
+.form-heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.user-input, .age-input, .phone-input, .sex-input, .pass-input{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+    color: black;
+    width: 60%;
+    border-radius: 5px;
+}
+.username, .age, .phone_number, .sex, .pass {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 18px;
+}
+.register-submit{
+    text-align: center;
+    margin-top: 10px;
+}
+.register-submit button{
+    font-size: 18px;
+    width: 65%;
+    padding: 6px 10px;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.25s ease-in-out;
+}
+.register-submit button:hover{
+    border: 1px solid black;
+}
